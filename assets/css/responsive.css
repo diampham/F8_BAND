@@ -1,0 +1,81 @@
+
+/* sd đơn vị em để hạn chế lỗi hiển thị trên browser */
+
+/* =============PC==================== */
+
+/* 1024px */
+@media (min-width: 64em){
+}
+
+/* ==============Tablet and Mobile=============== */
+
+/* 1023px */
+@media (max-width: 63.9375em){
+    .place .buy-ticket{
+        padding: 16px;
+    }
+    .contact-form .form-control{
+        padding: 16px;
+    }
+    #footer{
+        font-size: 24px;
+    }
+    .socials-list{
+        font-size: 32px;
+        margin: 0 8px
+    }
+}   
+
+/* ==============Tablet=============== */
+
+/* 740px */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+}
+
+/* ===============Mobile================ */
+
+/* 739px */
+@media (max-width: 46.1875em){
+    .s-col-full,
+    .s-full-width {
+        width: 100% !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 16px;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 7px 41px;
+    }
+    #slider .text-content{
+        display: none;
+    }
+    #content .member-name{
+        margin-bottom: 0;
+    }
+}
